@@ -11,11 +11,11 @@ for i in range(1, 11):
     kmeans.fit(input_values_2d)
     inertia.append(kmeans.inertia_)
 
-# plt.plot(inertia)
-# plt.xlabel('# Cluster - K')
-# plt.ylabel("Inertia")
-# plt.savefig('graphs/graph_kmeans_inertia')
-# plt.show()
+plt.plot(inertia)
+plt.xlabel('# Cluster - K')
+plt.ylabel("Inertia")
+plt.savefig('graphs/graph_kmeans_inertia')
+plt.show()
 
 kmeans_clf = KMeans(n_clusters=2)
 kmeans_clf.fit(input_values_2d)
