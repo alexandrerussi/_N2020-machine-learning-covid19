@@ -2,6 +2,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import ia_n2020
 import pca_graph
+import pandas as pd
 
 input_values_2d, predict_values_2d = pca_graph.normalize_data_2d()
 
@@ -24,6 +25,10 @@ centroid = kmeans_clf.cluster_centers_
 
 contaminated_predict = kmeans_clf.predict(predict_values_2d)
 print(contaminated_predict)
+
+spreadsheet = pd.read_csv('output_data/predict_data.csv')
+spreadsheet['kmeans_predict'] = contaminated_predict
+spreadsheet.to_csv('output_data/predict_data.csv', index=False)
 
 plt.scatter(input_values_2d[:, 0], input_values_2d[:, 1], s=25, alpha=0.4, c=contaminated)
 plt.title('graph_kmeans_2d')

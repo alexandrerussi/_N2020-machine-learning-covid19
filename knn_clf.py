@@ -1,6 +1,7 @@
 from sklearn.neighbors import KNeighborsClassifier
 import ia_n2020
 import pca_graph
+import pandas as pd
 
 input_values, contaminated = ia_n2020.ioValues()
 predict_values = ia_n2020.newData()
@@ -15,6 +16,10 @@ print(knn_score)
 
 knn_predict = knn_clf.predict(predict_values)
 print(knn_predict)
+
+spreadsheet = pd.read_csv('output_data/predict_data.csv')
+spreadsheet['knn_predict'] = knn_predict
+spreadsheet.to_csv('output_data/predict_data.csv', index=False)
 
 # knn classifier with 2D data
 knn_clf_2d = KNeighborsClassifier(n_neighbors=4)

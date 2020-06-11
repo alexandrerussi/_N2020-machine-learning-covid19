@@ -1,4 +1,5 @@
 from sklearn import svm
+import pandas as pd
 import ia_n2020
 import pca_graph
 
@@ -18,6 +19,10 @@ print(sv_score)
 
 sv_predict = sv_clf.predict(predict_values)
 print(sv_predict)
+
+spreadsheet = pd.read_csv('output_data/predict_data.csv')
+spreadsheet['svm_predict'] = sv_predict
+spreadsheet.to_csv('output_data/predict_data.csv', index=False)
 
 # svm classifier with 2D data
 sv_clf_2d = svm.SVC(kernel='linear', C=0.5)

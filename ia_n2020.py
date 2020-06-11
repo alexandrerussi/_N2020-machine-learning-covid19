@@ -94,6 +94,6 @@ def plotGraph3D(input_values_3d, contaminated, classifier, graph_title):
     plt.savefig('graphs/' + graph_title + '.png')
     # plt.show()
 
-# with open('predict_data.csv', 'w', newline='') as file:
+# with open('output_data/predict_data.csv', 'w', newline='') as file:
 #     writer = csv.writer(file)
 #     writer.writerow(["Distancia", "Time", "Volume", "Weight"])
