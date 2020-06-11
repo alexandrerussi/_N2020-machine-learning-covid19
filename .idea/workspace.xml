@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b978aa37-cfd5-4fd8-924d-393123b2edb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kmeans_clf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +36,8 @@
       <recent name="C:\Users\Junior\Documents\Educacao\FIAP\4EMR\IA\1 SEM\Aulas_IA_Python\_N2020\graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.svm_clf">
-    <configuration name="ia_n2020" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.kmeans_clf">
+    <configuration name="kmeans_clf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="_N2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ia_n2020.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans_clf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kmeans_clf" />
         <item itemvalue="Python.svm_clf" />
         <item itemvalue="Python.svm_clf_2d" />
         <item itemvalue="Python.knn_clf" />
         <item itemvalue="Python.svm_clf_3d" />
-        <item itemvalue="Python.ia_n2020" />
       </list>
     </recent_temporary>
   </component>
@@ -177,33 +178,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="23" key="CommitChangelistDialog2" timestamp="1591809216195">
+    <state x="301" y="23" key="CommitChangelistDialog2" timestamp="1591838430769">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591809216195" />
+    <state x="301" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591838430769" />
     <state x="622" y="346" key="Github.CreateGistDialog" timestamp="1591805870800">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="622" y="346" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1591805870800" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1591808274401">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1591838296472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591808274401" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1591808274401">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591838296472" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1591838296472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591808274401" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1591808274401">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591838296472" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1591838296472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591808274401" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1591808274401">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591838296472" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1591838296472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591808274401" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591838296472" />
     <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1591809210308">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591809210308" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591835711483">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1591835711483" />
   </component>
 </project>
