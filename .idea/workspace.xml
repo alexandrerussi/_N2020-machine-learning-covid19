@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b978aa37-cfd5-4fd8-924d-393123b2edb8" name="Default Changelist" comment="">
+    <list default="true" id="b978aa37-cfd5-4fd8-924d-393123b2edb8" name="Default Changelist" comment="output data and naive bayes fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/naive_bayes_clf.py" beforeDir="false" afterPath="$PROJECT_DIR$/naive_bayes_clf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/naive_bayes_2d.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/output_data/predict_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output_data/predict_data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591843126790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="output data and naive bayes fixed">
+      <created>1591843470442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591843470442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,37 +215,38 @@
     <MESSAGE value="kmeans clustering" />
     <MESSAGE value="naive bayes" />
     <MESSAGE value="output data" />
-    <option name="LAST_COMMIT_MESSAGE" value="output data" />
+    <MESSAGE value="output data and naive bayes fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="output data and naive bayes fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="23" key="CommitChangelistDialog2" timestamp="1591843124418">
+    <state x="301" y="23" key="CommitChangelistDialog2" timestamp="1591923730492">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591843124418" />
+    <state x="301" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1591923730492" />
     <state x="622" y="346" key="Github.CreateGistDialog" timestamp="1591805870800">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="622" y="346" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1591805870800" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1591843390296">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1591844194986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591843390296" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1591843390296">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1591844194986" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1591844194986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591843390296" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1591843390296">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1591844194986" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1591844194986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591843390296" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1591843390296">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1591844194986" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1591844194986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591843390296" />
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1591843135888">
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1591844194986" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2" timestamp="1591843476929">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591843135888" />
+    <state x="392" y="151" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1591843476929" />
     <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591835711483">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
