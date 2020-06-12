@@ -16,10 +16,12 @@ sv_clf.fit(input_values, contaminated)
 
 sv_score = sv_clf.score(input_values, contaminated)
 print(sv_score)
+score_sheet = pd.read_csv('output_data/score.csv')
+score_sheet['sv_score'] = sv_score
+score_sheet.to_csv('output_data/score.csv', index=False)
 
 sv_predict = sv_clf.predict(predict_values)
 print(sv_predict)
-
 spreadsheet = pd.read_csv('output_data/predict_data.csv')
 spreadsheet['svm_predict'] = sv_predict
 spreadsheet.to_csv('output_data/predict_data.csv', index=False)

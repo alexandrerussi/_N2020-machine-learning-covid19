@@ -9,12 +9,15 @@ input_values_2d, predict_values_2d = pca_graph.normalize_data_2d()
 
 nb_clf = GaussianNB()
 nb_clf.fit(input_values, contaminated)
+
 nb_score = nb_clf.score(input_values, contaminated)
-nb_predict = nb_clf.predict(predict_values)
-
 print(nb_score)
-print(nb_predict)
+score_sheet = pd.read_csv('output_data/score.csv')
+score_sheet['nb_score'] = nb_score
+score_sheet.to_csv('output_data/score.csv', index=False)
 
+nb_predict = nb_clf.predict(predict_values)
+print(nb_predict)
 spreadsheet = pd.read_csv('output_data/predict_data.csv')
 spreadsheet['nb_predict'] = nb_predict
 spreadsheet.to_csv('output_data/predict_data.csv', index=False)

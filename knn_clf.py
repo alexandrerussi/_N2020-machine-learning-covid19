@@ -13,10 +13,12 @@ knn_clf.fit(input_values, contaminated)
 
 knn_score = knn_clf.score(input_values, contaminated)
 print(knn_score)
+score_sheet = pd.read_csv('output_data/score.csv')
+score_sheet['knn_score'] = knn_score
+score_sheet.to_csv('output_data/score.csv', index=False)
 
 knn_predict = knn_clf.predict(predict_values)
 print(knn_predict)
-
 spreadsheet = pd.read_csv('output_data/predict_data.csv')
 spreadsheet['knn_predict'] = knn_predict
 spreadsheet.to_csv('output_data/predict_data.csv', index=False)
